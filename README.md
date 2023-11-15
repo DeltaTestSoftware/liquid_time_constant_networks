@@ -20,9 +20,18 @@ All the following steps assume that they are executed under these conditions.
 ## Preparation
 
 First, we have to download all datasets by running 
+
 ```bash
 source download_datasets.sh
 ```
+
+on Linux. On Windows you can run
+
+```
+download_datasets.bat
+```
+which expects 7z (7-Zip executable) to be on your `PATH`.
+
 This script creates a folder ```data```, where all downloaded datasets are stored.
 
 ## Training and evaluating the models 
